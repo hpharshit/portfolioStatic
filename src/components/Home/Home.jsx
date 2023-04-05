@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "./Home.css";
-import * as THREE from "three";
 import { Typography } from "@mui/material";
 import TimeLine from "../TimeLine/TimeLine";
 import {
@@ -18,32 +17,12 @@ import {
   SiGit,
 } from "react-icons/si";
 import PlatformCard from "../PlatformCard/PlatformCard";
-import { Link } from "react-router-dom";
 import { MouseOutlined } from "@mui/icons-material";
-import profileImage from "../../Images/blue_profile.jpg";
 
 const Home = ({ timelines, platforms, skills }) => {
   useEffect(() => {
-    const textureLoader = new THREE.TextureLoader();
-
-    const background = textureLoader.load(profileImage);
-
-    const scene = new THREE.Scene();
-    const camera = new THREE.PerspectiveCamera(
-      75,
-      window.innerWidth / window.innerHeight,
-      0.1,
-      1000
-    );
-
-    const canvas = document.querySelector(".homeCanvas");
-    const renderer = new THREE.WebGLRenderer({ canvas });
-    scene.background = background;
-
     const animate = () => {
       requestAnimationFrame(animate);
-      renderer.setSize(window.innerWidth, window.innerHeight);
-      renderer.render(scene, camera);
     };
 
     animate();
@@ -61,14 +40,18 @@ const Home = ({ timelines, platforms, skills }) => {
 
   return (
     <div className="home">
-      <canvas className="homeCanvas" style={{
-  backgroundImage: "url(" + "https://github.com/hpharshit/IMGAGES/blob/main/blue_profile.jpg?raw=true" + ")",
-  backgroundPosition: 'center',
-  backgroundSize: '60%',
-  backgroundRepeat: 'no-repeat'
-}}
-></canvas>
-
+      <canvas
+        className="homeCanvas"
+        style={{
+          backgroundImage:
+            "url(" +
+            "https://github.com/hpharshit/IMGAGES/blob/main/blue_profile.jpg?raw=true" +
+            ")",
+          backgroundPosition: "center",
+          backgroundSize: "60%",
+          backgroundRepeat: "no-repeat",
+        }}
+      ></canvas>
       <div className="homeCanvasContainer">
         <Typography variant="h1">
           <p>W</p>
@@ -81,9 +64,15 @@ const Home = ({ timelines, platforms, skills }) => {
         </Typography>
 
         <div className="homeCanvasBox">
-          <Typography variant="h2" className="name">Harshit Pandey</Typography>
+          <Typography variant="h2" className="name">
+            Harshit Pandey
+          </Typography>
         </div>
-        <a className="ac" href="https://drive.google.com/file/d/1xN9NyAXCr_zzr6TfLUD0V8Ai5vNVZysu/view" target="_blank">
+        <a
+          className="ac"
+          href="https://drive.google.com/file/d/1xN9NyAXCr_zzr6TfLUD0V8Ai5vNVZysu/view"
+          target="_blank"
+        >
           My Resume
         </a>
       </div>
@@ -197,15 +186,6 @@ const Home = ({ timelines, platforms, skills }) => {
             title="HackerRank"
             url="https://www.hackerrank.com/harshpandeyalfa2"
           />
-          {/* {platforms.map((item) => (
-            <PlatformCard
-              image={item.image.url}
-              title={item.title}
-              url={item.url}
-              id={item._id}
-              key={item._id}
-            />
-          ))} */}
         </div>
       </div>
     </div>
