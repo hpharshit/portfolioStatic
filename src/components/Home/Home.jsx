@@ -93,7 +93,7 @@ const Home = ({ timelines, platforms, skills }) => {
           <div className="homeCubeSkillsFaces homeCubeSkillsFace1">
             {/* <img src={skills.image1.url} alt="Face1" /> */}
             <img
-              src="https://github.com/hpharshit/IMGAGES/blob/main/C++.jpg?raw=true"
+              src="https://github.com/hpharshit/IMGAGES/blob/main/cpp_logo.png?raw=true"
               alt="Face1"
             />
           </div>
