@@ -116,7 +116,7 @@ const Projects = () => {
       technologies: "ReactJs / NodeJs / ExpressJs / MongoDB / Mongoose ",
     },
     {
-      url: "https://github.com/hpharshit/banking_app_javascript",
+      url: "https://hpharshit.github.io/banking_app_javascript/",
       projectImage:
         "https://github.com/hpharshit/IMGAGES/blob/main/banking.png?raw=true",
       projectTitle: "Banking App",
@@ -125,7 +125,7 @@ const Projects = () => {
       technologies: "JavaScript / HTML / CSS",
     },
     {
-      url: "https://github.com/hpharshit/guess_number_javascript",
+      url: "https://hpharshit.github.io/guess_number_javascript/",
       projectImage:
         "https://github.com/hpharshit/IMGAGES/blob/main/no.png?raw=true",
       projectTitle: "Guess-Number",
