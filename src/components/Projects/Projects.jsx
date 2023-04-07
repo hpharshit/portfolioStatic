@@ -127,7 +127,7 @@ const Projects = () => {
     {
       url: "https://github.com/hpharshit/guess_number_javascript",
       projectImage:
-        "https://github.com/hpharshit/IMGAGES/blob/main/guess_no_.jpg?raw=true",
+        "https://github.com/hpharshit/IMGAGES/blob/main/no.png?raw=true",
       projectTitle: "Guess-Number",
       description:
         "Basic Number Guessing app. Used random function of JavaScript to generate Numbers.",
