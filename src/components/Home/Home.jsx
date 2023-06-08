@@ -70,7 +70,7 @@ const Home = ({ timelines, platforms, skills }) => {
         </div>
         <a
           className="ac"
-          href="https://drive.google.com/file/d/1zCpReVfvOjAPXfjJ8IXmxK2tEKOUZpXi/view"
+          href="https://drive.google.com/file/d/1GKdh3userC_RWASLhlYKtvypNwfJpjXw/view"
           target="_blank"
         >
           My Resume
