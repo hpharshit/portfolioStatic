@@ -31,7 +31,7 @@ const Footer = () => {
         <a href="mailto: harshpandeyalfa2@gmail.com" target="black">
           <BsGoogle/>
         </a>
-        <a href="https://drive.google.com/file/d/1Gu1xaTBmthaPAWtKxgVOBV1-zqmO3F4l/view?usp=sharing" target="black">
+        <a href="https://drive.google.com/file/d/1583OCMXEPgPSGyc6ARnKAFCuoQfgxcyh/view?usp=sharing" target="black">
           <BsCloudUploadFill/>
         </a>
       </div>
