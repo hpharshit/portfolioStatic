@@ -105,7 +105,7 @@ const Projects = () => {
       projectTitle: "Social Media",
       description:
         "Social Media App with User can Signup/Login and Post an Image, Like, Comment on Images, Follow Friends, Create Group.",
-      technologies: "ReactJs / NodeJs / ExpressJs / MySQlL / Material-UI ",
+      technologies: "ReactJs / NodeJs / ExpressJs / MySQl / Material-UI ",
     },
     {
       url: "https://github.com/hpharshit/todoList",
