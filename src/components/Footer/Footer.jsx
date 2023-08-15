@@ -10,7 +10,7 @@ const Footer = () => {
       <div>
         <Typography variant="h5">About Me</Typography>
         <Typography>
-          Hey, my name is Harshit Pandey. I am a 3rd Year B.E Information Science and Engineering student at <b>JSS Science And Technology University</b> (formerly SJCE, Mysuru)
+          Hey, my name is Harshit Pandey. I am a 4th Year B.E Information Science and Engineering student at <b>JSS Science And Technology University</b> (formerly SJCE, Mysuru)
         </Typography>
 
         <Link to="/contact" className="footerContactBtn">
@@ -31,7 +31,7 @@ const Footer = () => {
         <a href="mailto: harshpandeyalfa2@gmail.com" target="black">
           <BsGoogle/>
         </a>
-        <a href="https://drive.google.com/file/d/1QKuyiqAqHU1yARDG3izG5s620QQt8wAQ/view?usp=sharing" target="black">
+        <a href="https://drive.google.com/file/d/1OHViY1BNRz5S7CJ4OQUEtYKG1eAksfAH/view?usp=sharing" target="black">
           <BsCloudUploadFill/>
         </a>
       </div>
