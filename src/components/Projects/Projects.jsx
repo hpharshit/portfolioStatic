@@ -70,7 +70,7 @@ const Projects = () => {
       technologies: "ReactJs / JavaScript",
     },
     {
-      url: "https://github.com/hpharshit/WeConnect",
+      url: "https://3c15078d.weconnecto.pages.dev/",
       projectImage:
         "https://github.com/hpharshit/IMGAGES/blob/main/Screenshot%202023-04-06%20024637.png?raw=true",
       projectTitle: "WeConnect",
