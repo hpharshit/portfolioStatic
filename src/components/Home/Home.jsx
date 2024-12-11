@@ -15,6 +15,13 @@ import {
   SiCss3,
   SiHtml5,
   SiGit,
+  SiOracle,
+  SiFastapi,
+  SiDocker,
+  SiKubernetes,
+  SiApachekafka,
+  SiAmazonaws,
+  SiJenkins
 } from "react-icons/si";
 import PlatformCard from "../PlatformCard/PlatformCard";
 import { MouseOutlined } from "@mui/icons-material";
@@ -68,7 +75,7 @@ const Home = ({ timelines, platforms, skills }) => {
             Harshit Pandey
           </Typography>
         </div>
-        <a className="ac" href="https://drive.google.com/file/d/1D-o6woWduAKS-586nxTIm5-jdimWucCa/view?usp=sharing" target="_blank">
+        <a className="ac" href="https://drive.google.com/file/d/1CpImD3zsyyi01ST5Y1rcfkIB7qI3pmCt/view" target="_blank">
           My Resume
         </a>
       </div>
@@ -97,7 +104,7 @@ const Home = ({ timelines, platforms, skills }) => {
           <div className="homeCubeSkillsFaces homeCubeSkillsFace2">
             {/* <img src={skills.image2.url} alt="Face2" /> */}
             <img
-              src="https://github.com/hpharshit/IMGAGES/blob/main/MySQL.png?raw=true"
+              src="https://github.com/hpharshit/IMGAGES/blob/main/java.png?raw=true"
               alt="Face1"
             />
           </div>
@@ -105,7 +112,7 @@ const Home = ({ timelines, platforms, skills }) => {
           <div className="homeCubeSkillsFaces homeCubeSkillsFace3">
             {/* <img src={skills.image3.url} alt="Face3" /> */}
             <img
-              src="https://github.com/hpharshit/IMGAGES/blob/main/mongodb.png?raw=true"
+              src="https://github.com/hpharshit/IMGAGES/blob/main/spring_boot.png?raw=true"
               alt="Face1"
             />
           </div>
@@ -138,17 +145,18 @@ const Home = ({ timelines, platforms, skills }) => {
         <div className="cubeShadow"></div>
 
         <div className="homeskillsBox" id="homeskillsBox">
-          <SiCplusplus />
           <SiC />
-          <SiPython />
-          <SiHtml5 />
-          <SiCss3 />
+          <SiFastapi/>
+          <SiDocker/>
+          <SiKubernetes/>
+          <SiApachekafka/>
+          <SiAmazonaws/>
           <SiGit />
-          <SiJavascript />
-          <SiMongodb />
-          <SiExpress />
-          <SiReact />
           <SiNodedotjs />
+          <SiExpress />
+          <SiOracle/>
+          <SiMongodb />
+          <SiJenkins/>
           <SiMysql />
         </div>
       </div>

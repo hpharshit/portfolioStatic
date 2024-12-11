@@ -9,7 +9,28 @@ import TimelineDot from "@mui/lab/TimelineDot";
 import { Event } from "@mui/icons-material";
 import Typography from "@mui/material/Typography";
 
-const timelines = [{ title: "B.E in INFORMATION SCIENCE AND ENGINEERING" ,date:"12/2020 - Present",description:"JSS Science And Technology University"},{title: "12th (SENIOR SECONDARY EXAMINATION)" ,date:"05/2019",description:"K D B PUBLIC SCHOOL, GHAZIABAD, UTTAR PRADESH"},{title: "10th (SECONDARY SCHOOL EXAMINATION)" ,date:"06/2017",description:"K D B PUBLIC SCHOOL, GHAZIABAD, UTTAR PRADESH"}];
+const timelines = [
+  {
+    title: "Software Engineer (Intern + Trainee)",
+    date: "01/2024 - Present",
+    description: "GoTo (Formerly LogMeIn), Bangalore, Karnataka",
+  },
+  {
+    title: "B.E in INFORMATION SCIENCE AND ENGINEERING - CGPA: 9.2/10.0",
+    date: "12/2020 - 06/2024",
+    description: "JSS Science And Technology University, Mysore, Karnataka",
+  },
+  {
+    title: "12th (SENIOR SECONDARY EXAMINATION) - Percentage: 92.4",
+    date: "06/2017 - 05/2019",
+    description: "K D B PUBLIC SCHOOL, GHAZIABAD, UTTAR PRADESH",
+  },
+  {
+    title: "10th (SECONDARY SCHOOL EXAMINATION) - CGPA: 10.0/10.0",
+    date: "06/2015 - 06/2017",
+    description: "K D B PUBLIC SCHOOL, GHAZIABAD, UTTAR PRADESH",
+  },
+];
 
 const TimeLine = () => {
   return (
