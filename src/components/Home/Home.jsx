@@ -84,7 +84,7 @@ const Home = ({ timelines, platforms, skills }) => {
       </div>
 
       <div className="homeContainer">
-        <Typography variant="h3">ACADEMIC TIMELINE</Typography>
+        <Typography variant="h3">Education and Experience</Typography>
         {/* <TimeLine timelines={timelines} /> */}
         <TimeLine timelines={[1, 2, 3, 4]} />
       </div>
@@ -112,7 +112,7 @@ const Home = ({ timelines, platforms, skills }) => {
           <div className="homeCubeSkillsFaces homeCubeSkillsFace3">
             {/* <img src={skills.image3.url} alt="Face3" /> */}
             <img
-              src="https://github.com/hpharshit/IMGAGES/blob/main/spring_boot.png?raw=true"
+              src="https://github.com/hpharshit/IMGAGES/blob/main/springboot.png?raw=true"
               alt="Face1"
             />
           </div>
