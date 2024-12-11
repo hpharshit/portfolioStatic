@@ -25,13 +25,13 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/harshit-pandey-b3483321a/" target="black">
           <BsLinkedin />
         </a>
-        <a href="https://www.instagram.com/hp_harsh1/" target="black">
+        <a href="https://www.instagram.com/harsh.hp03/" target="black">
           <BsInstagram />
         </a>
         <a href="mailto: harshpandeyalfa2@gmail.com" target="black">
           <BsGoogle/>
         </a>
-        <a href="https://drive.google.com/file/d/1D-o6woWduAKS-586nxTIm5-jdimWucCa/view?usp=sharing" target="black">
+        <a href="https://drive.google.com/file/d/1CpImD3zsyyi01ST5Y1rcfkIB7qI3pmCt/view" target="black">
           <BsCloudUploadFill/>
         </a>
       </div>
