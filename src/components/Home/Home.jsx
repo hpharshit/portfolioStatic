@@ -75,7 +75,7 @@ const Home = ({ timelines, platforms, skills }) => {
             Harshit Pandey
           </Typography>
         </div>
-        <a className="ac" href="https://drive.google.com/file/d/1cwKtHkoDvsCptcIFR5rNpVBBaes46YBm/view" target="_blank">
+        <a className="ac" href="https://drive.google.com/file/d/1DgJSECnPwFvjjCG1heNXNLS4vfYvD4-L/view" target="_blank">
           My Resume
         </a>
       </div>
